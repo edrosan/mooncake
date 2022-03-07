@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>mooncake</title>
+</head>
+<body>
+    <img src="./assets/img/mooncake_logo.png" alt="logo mooncake" width="100%">
+    <div id="sabores">
+        <h1>Bienvenidos a mooncake</h1>
+        <h2>Sabores de Pasteles</h2>
+        <ul>
+            <li>Milky Way....................$300</li>
+            <li>Vanilla Moon.................$200</li>
+            <li>Choco Mars...................$250</li>
+            <li>Space Berry..................$200</li>
+            <li>Sun Cherry...................$250</li>
+        </ul>
+    
+
+    <h2>Adornos</h2>
+    <ul>
+        <li>Velas.....................$20</li>
+        <li>Frutas extras.............$20</li>
+        <li>Base para pastel..........$50</li>
+    </ul>
+</div>
+
+    <div id="pedido">
+
+        <h2>Genera tu pedido</h2>
+        <form action="pedido.js">
+            <label for="Nombre">Ingresa tu nombre</label>
+            <br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+            <br>
+            <label for="Telefono">Ingresa tu Telefono</label>
+            <br>
+            <input type="number" id="Telefono" name="Telefono" placeholder="Telefono">
+            <br>
+            <label for="Correo">Ingresa tu Correo Electronico</label>
+            <br>
+            <input type="email" id="Correo" name="Correo" placeholder="Correo">
+    
+            <br>
+            <label for="Descripcion">Ingresa la descripcion del pastel</label>
+            <br>
+            <input type="text" id="Descripcion" name="Descripcion" placeholder="Descripcion">
+    
+            <p>Elije tus sabores:</p>
+            <div>
+                <input type="checkbox" id="Milky" name="Milky" value="Milky Way">
+                <label for="Milky">Milky way</label>
+                <input type="checkbox" id="Vanilla" name="Vanilla" value="Vanilla Moon">
+                <label for="Vanilla">Vanilla moon</label>
+                <input type="checkbox" id="Choco" name="Choco" value="Choco Mars">
+                <label for="Choco">Choco Mars</label>
+                <input type="checkbox" id="Space" name="Space" value="Space Berry">
+                <label for="Space">Space Berry</label>
+                <input type="checkbox" id="Sun" name="Sun" value="Sun Cherry">
+                <label for="Sun">Sun Cherry</label>
+            </div>
+    
+            <p>Elije tus adornos</p>
+            <div>
+                <input type="checkbox" id="Velas" name="Velas" value="Velas">
+                <label for="Velas">Velas</label>
+    
+                <input type="checkbox" id="Frutas" name="Frutas" value="Frutas">
+                <label for="Frutas">Frutas</label>
+                <input type="checkbox" id="Base" name="Base" value="Base">
+                <label for="Base">Base</label>
+            </div>
+            
+    
+            <input type="reset">
+            <br>
+            <input type="submit">
+    
+    
+        </form>
+    </div>
+
+</body>
+</html>
