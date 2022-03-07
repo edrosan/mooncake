@@ -29,7 +29,17 @@ ul{
     border-radius:10px;
 }
 
-img {
-    height: 450px;
+#img {
+    height: 250px;
     object-fit: cover;
+}
+
+#tabla{
+    border-radius:10px;
+    margin:10px;
+    background-color:white;
+    text-align: center;
+    padding: 10px;
+
+
 }
